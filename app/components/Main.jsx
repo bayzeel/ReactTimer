@@ -1,4 +1,5 @@
 var React = require("react");
+var Navigation = require("Navigation");
 
 /*var Main = React.createClass({
     render: function(){
@@ -15,6 +16,7 @@ var React = require("react");
 var Main = (props) => {
     return(
         <div>
+            <Navigation/>
             <div>
                 <div>
                     <p>Main.jsx Rendered</p>
