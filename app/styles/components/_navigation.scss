@@ -10,6 +10,9 @@
         padding: 0;
       }
     }
+    .active-link{
+      font-weight: bold;
+    }
   }
   .menu-text{
     color: $nav-text-color;
