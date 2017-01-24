@@ -1,0 +1,13 @@
+.controls{
+  display: flex;
+  justify-content: center;
+  .button{
+    padding: 0.75em 3em;
+    &:first-child{
+      margin-right: 1.5rem;
+    }
+    &:last-child{
+
+    }
+  }
+}
